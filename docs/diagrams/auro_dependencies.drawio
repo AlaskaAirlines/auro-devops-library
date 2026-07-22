@@ -1,0 +1,288 @@
+<mxfile host="Electron" modified="2023-12-18T18:45:37.827Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="gbmNuZ6Svh0kU1Ucqo07" version="22.1.2" type="device">
+  <diagram id="23iRSUPoRavnBvh4doch" name="Auro dependencies workflow">
+    <mxGraphModel dx="1306" dy="947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#B2B2B2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="15" as="sourcePoint" />
+            <mxPoint x="1160" y="95" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1160" y="15" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#B2B2B2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1160" y="860" as="sourcePoint" />
+            <mxPoint x="1080" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1160" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#B2B2B2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="95" as="sourcePoint" />
+            <mxPoint x="120" y="15" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="15" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;fontColor=#000000;strokeColor=#726E6C;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="779.76" y="400" as="sourcePoint" />
+            <mxPoint x="780" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;fontColor=#000000;strokeColor=#726E6C;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="779.9999999999998" y="400" as="sourcePoint" />
+            <mxPoint x="1139.9999999999998" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="Auro dependencies flow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;fontColor=#000000;opacity=75;" parent="1" vertex="1">
+          <mxGeometry x="780" y="60" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="Prepared by: Auro&lt;br&gt;Drawn by: Dale Sande&lt;br&gt;Copyright: Alaska Air Group, Inc 2023&lt;br&gt;Last Reviewed Date : 2023-12-13" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;opacity=75;" parent="1" vertex="1">
+          <mxGeometry x="780" y="140" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fillColor=#c0f7ff;strokeColor=#00cff0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="800.76" y="429" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="Auro design tokens play a foundational role and can be superseded by tokens for a custom theme" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;opacity=75;" parent="1" vertex="1">
+          <mxGeometry x="840" y="429" width="299.76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fillColor=#c0f7ff;strokeColor=#00cff0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="800.76" y="479" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="Auro design tokens are installed at the root level of the app experience." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;opacity=75;" parent="1" vertex="1">
+          <mxGeometry x="840" y="479" width="299.76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;https://github.com/AlaskaAirlines/auro-library&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="61" y="920" width="630" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="70" value="From token to experience&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#000000;opacity=75;" parent="1" vertex="1">
+          <mxGeometry x="780" y="100" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="71" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;fontColor=#000000;strokeColor=#726E6C;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="779.9999999999998" y="140" as="sourcePoint" />
+            <mxPoint x="1139.9999999999998" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ArJ_Dwf6y-kAg7BQ_L2-85" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;fontColor=#000000;strokeColor=#726E6C;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780.0000000000002" y="240" as="sourcePoint" />
+            <mxPoint x="780" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ArJ_Dwf6y-kAg7BQ_L2-86" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;fontColor=#000000;strokeColor=#726E6C;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780.24" y="240" as="sourcePoint" />
+            <mxPoint x="1140.24" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ArJ_Dwf6y-kAg7BQ_L2-87" value="This document diagrams the flow of general Auro ecosystem dependencies from the lowest common variable to full web experiences.&amp;nbsp;&lt;br&gt;&lt;br&gt;Also described in this document:&lt;br&gt;https://auro.alaskaair.com/getting-started/developers/compliance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;opacity=75;" parent="1" vertex="1">
+          <mxGeometry x="800.76" y="250" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-129" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fillColor=#c0f7ff;strokeColor=#00cff0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="800.76" y="528" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-130" value="Custom theme tokens are intended to be loaded into the client AFTER the Auro design tokens." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;opacity=75;" parent="1" vertex="1">
+          <mxGeometry x="840" y="528" width="299.76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-131" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fillColor=#c0f7ff;strokeColor=#00cff0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="800.76" y="582" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-132" value="Auro design tokens and custom theme tokens INFLUENCE the UI of Auro icons and web core style sheets" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;opacity=75;" parent="1" vertex="1">
+          <mxGeometry x="840" y="582" width="299.76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-135" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fillColor=#c0f7ff;strokeColor=#00cff0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="800.76" y="636" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-136" value="Web core style sheets are installed at the root level of the app experience" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;opacity=75;" parent="1" vertex="1">
+          <mxGeometry x="840" y="636" width="299.76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-137" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="80" y="110" width="586.04" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-86" value="Auro Design Tokens" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" parent="30H6HdlN3ytegHj1XHcc-137" vertex="1">
+          <mxGeometry x="-272.09" y="272.093023255814" width="599.9933333333333" height="55.81395348837209" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-87" value="Custom Theme Design Tokens" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" parent="30H6HdlN3ytegHj1XHcc-137" vertex="1">
+          <mxGeometry x="-83.72" y="279.0697674418605" width="502.32" height="55.81395348837209" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-88" value="Web Core Style Sheets" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" parent="30H6HdlN3ytegHj1XHcc-137" vertex="1">
+          <mxGeometry x="189.76533333333333" y="174.4186046511628" width="223.25333333333333" height="55.81395348837209" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-89" value="Icons" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" parent="30H6HdlN3ytegHj1XHcc-137" vertex="1">
+          <mxGeometry x="213.486" y="394.8837209302326" width="175.81199999999998" height="55.81395348837209" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-90" value="Web Component(s)" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" parent="30H6HdlN3ytegHj1XHcc-137" vertex="1">
+          <mxGeometry x="323.71733333333333" y="272.093023255814" width="223.25333333333333" height="55.81395348837209" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-92" value="Front-end experiences" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" parent="30H6HdlN3ytegHj1XHcc-137" vertex="1">
+          <mxGeometry x="258.13666666666666" y="272.093023255814" width="599.9933333333333" height="55.81395348837209" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-101" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.966;exitY=1.073;exitDx=0;exitDy=0;exitPerimeter=0;" parent="30H6HdlN3ytegHj1XHcc-137" source="30H6HdlN3ytegHj1XHcc-86" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230.23000000000002" y="20.30232558139537" as="sourcePoint" />
+            <mxPoint x="523.25" y="20.930232558139537" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-120" value="&amp;nbsp;2&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="30H6HdlN3ytegHj1XHcc-101" vertex="1" connectable="0">
+          <mxGeometry x="-0.0326" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-103" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="30H6HdlN3ytegHj1XHcc-137" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="62.79" y="306.9767441860465" as="sourcePoint" />
+            <mxPoint x="132.55666666666667" y="306.9767441860465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-119" value="&amp;nbsp;1&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="30H6HdlN3ytegHj1XHcc-103" vertex="1" connectable="0">
+          <mxGeometry x="-0.16" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-105" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="30H6HdlN3ytegHj1XHcc-137" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.53266666666664" y="195.34883720930236" as="sourcePoint" />
+            <mxPoint x="269.2993333333333" y="195.34883720930236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-122" value="&amp;nbsp;4&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="30H6HdlN3ytegHj1XHcc-105" vertex="1" connectable="0">
+          <mxGeometry x="-0.2933" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-106" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="30H6HdlN3ytegHj1XHcc-137" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.53266666666664" y="404.65116279069775" as="sourcePoint" />
+            <mxPoint x="269.2993333333333" y="404.65116279069775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-123" value="&amp;nbsp;4&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="30H6HdlN3ytegHj1XHcc-106" vertex="1" connectable="0">
+          <mxGeometry x="-0.16" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-107" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="30H6HdlN3ytegHj1XHcc-137" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="333.4846666666666" y="153.48837209302326" as="sourcePoint" />
+            <mxPoint x="523.25" y="153.48837209302326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-128" value="&amp;nbsp;5&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="30H6HdlN3ytegHj1XHcc-107" vertex="1" connectable="0">
+          <mxGeometry x="-0.0833" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-108" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="30H6HdlN3ytegHj1XHcc-137" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="333.4846666666666" y="376.74418604651163" as="sourcePoint" />
+            <mxPoint x="403.2513333333333" y="376.74418604651163" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-125" value="&amp;nbsp;6&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="30H6HdlN3ytegHj1XHcc-108" vertex="1" connectable="0">
+          <mxGeometry x="-0.24" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-109" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="30H6HdlN3ytegHj1XHcc-137" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="467.4366666666666" y="306.9767441860465" as="sourcePoint" />
+            <mxPoint x="526.0406666666667" y="306.9767441860465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-127" value="&amp;nbsp;8&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="30H6HdlN3ytegHj1XHcc-109" vertex="1" connectable="0">
+          <mxGeometry x="-0.1905" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-116" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="30H6HdlN3ytegHj1XHcc-137" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="198.13733333333334" y="71.16279069767442" as="sourcePoint" />
+            <mxPoint x="523.25" y="71.16279069767442" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-121" value="&amp;nbsp;3&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="30H6HdlN3ytegHj1XHcc-116" vertex="1" connectable="0">
+          <mxGeometry x="-0.073" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-117" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="30H6HdlN3ytegHj1XHcc-137" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="198.13733333333334" y="531.6279069767443" as="sourcePoint" />
+            <mxPoint x="523.25" y="531.6279069767443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-118" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="30H6HdlN3ytegHj1XHcc-137" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="333.4846666666666" y="474.41860465116287" as="sourcePoint" />
+            <mxPoint x="523.25" y="474.41860465116287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-126" value="&amp;nbsp;7&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="30H6HdlN3ytegHj1XHcc-118" vertex="1" connectable="0">
+          <mxGeometry x="-0.0735" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-133" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="30H6HdlN3ytegHj1XHcc-137" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="333.4846666666666" y="251.16279069767444" as="sourcePoint" />
+            <mxPoint x="403.2513333333333" y="251.16279069767444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-134" value="&amp;nbsp;6&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="30H6HdlN3ytegHj1XHcc-133" vertex="1" connectable="0">
+          <mxGeometry x="-0.24" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-138" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fillColor=#c0f7ff;strokeColor=#00cff0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="800.76" y="683" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-139" value="Both web core style sheets and Auro icons can be installed into a web component for use" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;opacity=75;" parent="1" vertex="1">
+          <mxGeometry x="840" y="683" width="299.76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-140" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fillColor=#c0f7ff;strokeColor=#00cff0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="800.76" y="732" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-141" value="Auro icons are installed in the app experience for individual use" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;opacity=75;" parent="1" vertex="1">
+          <mxGeometry x="840" y="732" width="299.76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-142" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fillColor=#c0f7ff;strokeColor=#00cff0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="800.76" y="782" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-143" value="Web component is installed into the front-end app client." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;opacity=75;" parent="1" vertex="1">
+          <mxGeometry x="840" y="782" width="299.76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="30H6HdlN3ytegHj1XHcc-145" value="Auro design tokens ARE NOT installed in a web component. The tokens loaded into the app client influence the rendering of the web component UI." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;opacity=75;" parent="1" vertex="1">
+          <mxGeometry x="840.24" y="839" width="299.76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lvbWh4XNvWbTyBjcSCqi-77" value="Apache License 2.0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=29;fontColor=#7A1D2F;opacity=75;" parent="1" vertex="1">
+          <mxGeometry x="61" y="880" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lvbWh4XNvWbTyBjcSCqi-78" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;fontColor=#7A1D2F;strokeColor=#726E6C;exitX=0;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="lvbWh4XNvWbTyBjcSCqi-77" target="lvbWh4XNvWbTyBjcSCqi-77" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2481" y="-163.11" as="sourcePoint" />
+            <mxPoint x="1981" y="176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lvbWh4XNvWbTyBjcSCqi-79" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#B2B2B2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="121" y="960.6400000000003" as="sourcePoint" />
+            <mxPoint x="41" y="880.6400000000003" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="41" y="960.6400000000001" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

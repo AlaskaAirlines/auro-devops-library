@@ -1,0 +1,866 @@
+# Semantic Release Automated Changelog
+
+## [5.13.1](https://github.com/AlaskaAirlines/auro-library/compare/v5.13.0...v5.13.1) (2026-07-10)
+
+
+### Bug Fixes
+
+* **floatingUI:** handle focus loss in Chrome during popover promotion ([511b2a0](https://github.com/AlaskaAirlines/auro-library/commit/511b2a04ffb28b421d183f1a192fea59e7082c4c))
+* **floatingUI:** update hideBib method to differentiate focus loss events ([632366f](https://github.com/AlaskaAirlines/auro-library/commit/632366f24b2aa66455c9024f0538a588e7e8f9d1))
+
+# [5.13.0](https://github.com/AlaskaAirlines/auro-library/compare/v5.12.3...v5.13.0) (2026-05-14)
+
+
+### Features
+
+* add ISO date formatting support AB[#1495381](https://github.com/AlaskaAirlines/auro-library/issues/1495381) ([006947a](https://github.com/AlaskaAirlines/auro-library/commit/006947abf0736ec8efa25fe7861d99327e459a3b))
+
+
+### Performance Improvements
+
+* **dateutil:** add null check guard ([e5187f4](https://github.com/AlaskaAirlines/auro-library/commit/e5187f45a96aeec66c286ba9ca858e5bce9b6860))
+* **dateutil:** clean up some dup logics ([bbed2ee](https://github.com/AlaskaAirlines/auro-library/commit/bbed2ee4257ff1d107505158809eaa8cc3245685))
+* refactor structure and performance ([42247a0](https://github.com/AlaskaAirlines/auro-library/commit/42247a03392c80dd29ab3447bf65b73fc461ba38))
+
+## [5.12.3](https://github.com/AlaskaAirlines/auro-library/compare/v5.12.2...v5.12.3) (2026-04-30)
+
+
+### Bug Fixes
+
+* **floatingUI:** restore bib transform ([65a236f](https://github.com/AlaskaAirlines/auro-library/commit/65a236f0419d4946b6cb194e1ea6e8af74cdf15e))
+* **floatingUI:** set `role="application"` on bib Container to lock 3finger swipe ([88fa5ca](https://github.com/AlaskaAirlines/auro-library/commit/88fa5ca6875f91a301b4a26f2d195d47b7e0192a))
+* **floatingUI:** use `aria-modal` instead of `role="application"` ([7a3dddc](https://github.com/AlaskaAirlines/auro-library/commit/7a3dddc2a42a6bc416ae5b35f0b9efc5aeb2998f))
+
+
+### Performance Improvements
+
+* **floatingUI:** add queue to main track opened floatingUI activities ([662ce52](https://github.com/AlaskaAirlines/auro-library/commit/662ce52efc0b0b74db6512f7e6b2a60d64a3ab98))
+* **floatingUI:** lock scroll for fullscreen mode ([6d425b6](https://github.com/AlaskaAirlines/auro-library/commit/6d425b64e66a2ec1519f098b5472580e29dcf6a7))
+
+## [5.12.2](https://github.com/AlaskaAirlines/auro-library/compare/v5.12.1...v5.12.2) (2026-04-09)
+
+
+### Performance Improvements
+
+* add touch handler to floatingUI ([c89a29c](https://github.com/AlaskaAirlines/auro-library/commit/c89a29c5d9ce5945f52ee3e00f79a648e5da6ca7))
+
+## [5.12.1](https://github.com/AlaskaAirlines/auro-library/compare/v5.12.0...v5.12.1) (2026-04-07)
+
+
+### Bug Fixes
+
+* guard element access and add null-element safety test ([efd5f8d](https://github.com/AlaskaAirlines/auro-library/commit/efd5f8d978c18341d49a6908600dca0a5f94bfda))
+* normalize null-element guards in getPositioningStrategy and setupHideHandlers ([d02617c](https://github.com/AlaskaAirlines/auro-library/commit/d02617c05998030f7c0ed15a8d207b3176191c58))
+* tighten floatingUI null guard behavior ([e194e61](https://github.com/AlaskaAirlines/auro-library/commit/e194e61439ac9c49170c5145b75917fb301b9495))
+
+# [5.12.0](https://github.com/AlaskaAirlines/auro-library/compare/v5.11.3...v5.12.0) (2026-04-01)
+
+
+### Features
+
+* add keyboard handling toggle to AuroFloatingUI ([100bbe9](https://github.com/AlaskaAirlines/auro-library/commit/100bbe940ff2f1589d8b738ce83631bd5c7b8568))
+
+## [5.11.3](https://github.com/AlaskaAirlines/auro-library/compare/v5.11.2...v5.11.3) (2026-03-31)
+
+
+### Bug Fixes
+
+* correct focus local check for shadow DOM ([e713cfc](https://github.com/AlaskaAirlines/auro-library/commit/e713cfc07f1be4809c97e05af97b89050478e988))
+
+## [5.11.2](https://github.com/AlaskaAirlines/auro-library/compare/v5.11.1...v5.11.2) (2026-03-17)
+
+
+### Bug Fixes
+
+* prevent dropdown from closing on click for noToggle elements AB[#1494298](https://github.com/AlaskaAirlines/auro-library/issues/1494298) ([4d23b40](https://github.com/AlaskaAirlines/auro-library/commit/4d23b4082c8e22d9a865ba51b702f70185cfd455))
+* return comment ([d2b315c](https://github.com/AlaskaAirlines/auro-library/commit/d2b315c0ca08d724ac6239d0e25b6127173f990e))
+* simplify hideBib logic with early returns for readability ([bd4038d](https://github.com/AlaskaAirlines/auro-library/commit/bd4038dce05969e18e87910a234344f95c729ac2))
+
+## [5.11.1](https://github.com/AlaskaAirlines/auro-library/compare/v5.11.0...v5.11.1) (2026-03-04)
+
+
+### Bug Fixes
+
+* prevent TypeError in updateCurrentExpandedDropdown when expandedAuroFloater is undefined ([8fb98bc](https://github.com/AlaskaAirlines/auro-library/commit/8fb98bc1ea1ce5d1643cdb406cb5cbd239ca4476))
+* skip outside-click handler when bib is fullscreen for VoiceOver compatibility #AB1503186 ([d958258](https://github.com/AlaskaAirlines/auro-library/commit/d958258e4d0557345e46290d21298b581ed88dd2)), closes [#AB1503186](https://github.com/AlaskaAirlines/auro-library/issues/AB1503186)
+
+# [5.11.0](https://github.com/AlaskaAirlines/auro-library/compare/v5.10.0...v5.11.0) (2026-02-20)
+
+
+### Features
+
+* add function for finding closest elem with defined attr [#222](https://github.com/AlaskaAirlines/auro-library/issues/222) ([e0a311d](https://github.com/AlaskaAirlines/auro-library/commit/e0a311db4b2d112d2bcfcce437e75553b16efe3e))
+* new function to get nearest defined locale [#223](https://github.com/AlaskaAirlines/auro-library/issues/223) ([7562865](https://github.com/AlaskaAirlines/auro-library/commit/756286553b301bc679648f2764d23b4682304a40))
+
+# [5.10.0](https://github.com/AlaskaAirlines/auro-library/compare/v5.9.0...v5.10.0) (2026-02-17)
+
+
+### Features
+
+* add class for unique ID generation [#220](https://github.com/AlaskaAirlines/auro-library/issues/220) ([8b7318c](https://github.com/AlaskaAirlines/auro-library/commit/8b7318c7e08c5c5cf858352a3801a680fc63204b))
+
+# [5.9.0](https://github.com/AlaskaAirlines/auro-library/compare/v5.8.0...v5.9.0) (2026-01-28)
+
+
+### Features
+
+* move popover positioner to library ([6d69131](https://github.com/AlaskaAirlines/auro-library/commit/6d69131a3ade2922cde25169d2dec6543264d11b))
+
+# [5.8.0](https://github.com/AlaskaAirlines/auro-library/compare/v5.7.0...v5.8.0) (2026-01-22)
+
+
+### Features
+
+* add StringBoolean lit converter for supporting string boolean attributes ([025cde2](https://github.com/AlaskaAirlines/auro-library/commit/025cde2fad3b12fa113c11a123268a816de4c009))
+
+# [5.7.0](https://github.com/AlaskaAirlines/auro-library/compare/v5.6.0...v5.7.0) (2026-01-22)
+
+
+### Features
+
+* add support for controlling tab order to FocusTrap ([f46fcfa](https://github.com/AlaskaAirlines/auro-library/commit/f46fcfae7e3f8d9c0633cc992f9cdb3362dcda4c))
+
+
+### Performance Improvements
+
+* improve code pathing, remove console warns, and account for NaN ([f2fb73e](https://github.com/AlaskaAirlines/auro-library/commit/f2fb73e832c1e1c12aa0a57b558b29581fc14d6d))
+
+# [5.6.0](https://github.com/AlaskaAirlines/auro-library/compare/v5.5.7...v5.6.0) (2026-01-21)
+
+
+### Features
+
+* add ClickTracker class for tracking clicks inside and outside of a target element [#212](https://github.com/AlaskaAirlines/auro-library/issues/212) ([52cf1a9](https://github.com/AlaskaAirlines/auro-library/commit/52cf1a9627495ed65ff598257308b464653c42e8))
+
+## [5.5.7](https://github.com/AlaskaAirlines/auro-library/compare/v5.5.6...v5.5.7) (2026-01-21)
+
+
+### Performance Improvements
+
+* switch from eslint to biome ([3b790d0](https://github.com/AlaskaAirlines/auro-library/commit/3b790d0c78dcef9685bbb2ed812860b86760ea87))
+
+## [5.5.6](https://github.com/AlaskaAirlines/auro-library/compare/v5.5.5...v5.5.6) (2026-01-13)
+
+
+### Bug Fixes
+
+* corrects issue with version writer causing lint issues in repos [#209](https://github.com/AlaskaAirlines/auro-library/issues/209) ([13b61a6](https://github.com/AlaskaAirlines/auro-library/commit/13b61a6c5c997f5f8acc11ede992f51190036149))
+
+## [5.5.5](https://github.com/AlaskaAirlines/auro-library/compare/v5.5.4...v5.5.5) (2026-01-13)
+
+
+### Bug Fixes
+
+* corrects issue with version writer causing lint issues in repos [#209](https://github.com/AlaskaAirlines/auro-library/issues/209) ([e72266d](https://github.com/AlaskaAirlines/auro-library/commit/e72266dc294cad813a2665fb0c17bcb12628e364))
+
+## [5.5.4](https://github.com/AlaskaAirlines/auro-library/compare/v5.5.3...v5.5.4) (2025-10-08)
+
+
+### Performance Improvements
+
+* add slot text grabber function [#201](https://github.com/AlaskaAirlines/auro-library/issues/201) ([382afe7](https://github.com/AlaskaAirlines/auro-library/commit/382afe7ca8eb85988b109020c4cd55d4df66c7da))
+
+## [5.5.3](https://github.com/AlaskaAirlines/auro-library/compare/v5.5.2...v5.5.3) (2025-09-15)
+
+
+### Bug Fixes
+
+* null check on `window.visualViewport` in floatingUI ([f5af11e](https://github.com/AlaskaAirlines/auro-library/commit/f5af11e2b95e2490dccd5cf1ea095b1fa347c4c5))
+
+## [5.5.2](https://github.com/AlaskaAirlines/auro-library/compare/v5.5.1...v5.5.2) (2025-08-20)
+
+
+### Bug Fixes
+
+* rename import to .mjs for transportAttributes in a11yTransporter ([650f3e7](https://github.com/AlaskaAirlines/auro-library/commit/650f3e7544083915501d3a9685377ed212f7093a))
+
+## [5.5.1](https://github.com/AlaskaAirlines/auro-library/compare/v5.5.0...v5.5.1) (2025-08-20)
+
+
+### Bug Fixes
+
+* convert a11ytransporter to be a module (.mjs) and add barrel file support ([846f5ab](https://github.com/AlaskaAirlines/auro-library/commit/846f5aba4586f3cca922ce363196e764936ea3ca))
+
+# [5.5.0](https://github.com/AlaskaAirlines/auro-library/compare/v5.4.0...v5.5.0) (2025-08-19)
+
+
+### Features
+
+* add shift middleware to AuroFloatingUI configuration [#191](https://github.com/AlaskaAirlines/auro-library/issues/191) ([5f6d291](https://github.com/AlaskaAirlines/auro-library/commit/5f6d29165b0a1473f1e6085c0de3f3ba9b79f966))
+
+# [5.4.0](https://github.com/AlaskaAirlines/auro-library/compare/v5.3.3...v5.4.0) (2025-08-14)
+
+
+### Features
+
+* add a11yTransporter util ([817bb3a](https://github.com/AlaskaAirlines/auro-library/commit/817bb3acb9d20e99bc25a89f17db3a8f2ac91ab5))
+
+## [5.3.3](https://github.com/AlaskaAirlines/auro-library/compare/v5.3.2...v5.3.3) (2025-08-08)
+
+
+### Bug Fixes
+
+* move test related dependencies to devDependencies ([3d877f8](https://github.com/AlaskaAirlines/auro-library/commit/3d877f86c8a98b9ecdb44d83329fe391a8379483))
+
+## [5.3.2](https://github.com/AlaskaAirlines/auro-library/compare/v5.3.1...v5.3.2) (2025-07-16)
+
+
+### Bug Fixes
+
+* remove mousedown `preventDefault` on bib ([0f92a2f](https://github.com/AlaskaAirlines/auro-library/commit/0f92a2fd3c10cbe0c2d978aa6b3bf2404fae0761))
+
+## [5.3.1](https://github.com/AlaskaAirlines/auro-library/compare/v5.3.0...v5.3.1) (2025-07-11)
+
+
+### Bug Fixes
+
+* add contain: layout as needed to resolve issues with positioning in projects that use tailwindcss ([ad8474d](https://github.com/AlaskaAirlines/auro-library/commit/ad8474d958bcf088be880f494f0505e873819490))
+
+# [5.3.0](https://github.com/AlaskaAirlines/auro-library/compare/v5.2.3...v5.3.0) (2025-07-04)
+
+
+### Features
+
+* add event type to auroDropdown-toggled for keyboard detection ([d7ec5b7](https://github.com/AlaskaAirlines/auro-library/commit/d7ec5b755cee75d0371bf3202d5a382ce20cd47c))
+
+## [5.2.3](https://github.com/AlaskaAirlines/auro-library/compare/v5.2.2...v5.2.3) (2025-07-02)
+
+
+### Bug Fixes
+
+* check for matchWidth before forcing dropdown width ([706f7ee](https://github.com/AlaskaAirlines/auro-library/commit/706f7eefe15d2ab5f5e208a14fe6e337d5b4e1c5))
+
+## [5.2.2](https://github.com/AlaskaAirlines/auro-library/compare/v5.2.1...v5.2.2) (2025-06-27)
+
+
+### Bug Fixes
+
+* correct logic for key handling when enter is pressed in the trigger of a floatingui element ([f310866](https://github.com/AlaskaAirlines/auro-library/commit/f310866d6137aa2e8a2a2a62c95bbe00867bf09d))
+
+## [5.2.1](https://github.com/AlaskaAirlines/auro-library/compare/v5.2.0...v5.2.1) (2025-06-26)
+
+
+### Performance Improvements
+
+* add deep nested focusable elements support in focustrap ([68b0262](https://github.com/AlaskaAirlines/auro-library/commit/68b0262157f0a2cad24d603e67c59e2b2ea0f76f))
+
+# [5.2.0](https://github.com/AlaskaAirlines/auro-library/compare/v5.1.0...v5.2.0) (2025-06-24)
+
+
+### Features
+
+* add support for component tag name attributes when detecting focusable components ([3a10af3](https://github.com/AlaskaAirlines/auro-library/commit/3a10af334c24bdc52404e7ecf85effb2a1afd574))
+
+# [5.1.0](https://github.com/AlaskaAirlines/auro-library/compare/v5.0.2...v5.1.0) (2025-06-18)
+
+
+### Features
+
+* add focus trap ([1ec8290](https://github.com/AlaskaAirlines/auro-library/commit/1ec82905e5fc27aa0e4769df683462ebbce08bcd))
+
+## [5.0.2](https://github.com/AlaskaAirlines/auro-library/compare/v5.0.1...v5.0.2) (2025-06-02)
+
+
+### Bug Fixes
+
+* add optional locale to get date string from a specific locale instead of the users locale ([dc188c1](https://github.com/AlaskaAirlines/auro-library/commit/dc188c15c10bcde4bec30284838b4f2866c78b01))
+
+## [5.0.1](https://github.com/AlaskaAirlines/auro-library/compare/v5.0.0...v5.0.1) (2025-06-02)
+
+
+### Bug Fixes
+
+* resolve issues with isMousePressed and keeping bibs open on focus loss ([3ae2c38](https://github.com/AlaskaAirlines/auro-library/commit/3ae2c38003eda3c58f1278924844bfd9f57e349f))
+
+# [5.0.0](https://github.com/AlaskaAirlines/auro-library/compare/v4.5.0...v5.0.0) (2025-05-29)
+
+
+### Bug Fixes
+
+* update positioning strategy and remove dom node transportation from FloatingUI ([3e01ab2](https://github.com/AlaskaAirlines/auro-library/commit/3e01ab2e8cadfa76d7d057abc6626b7b09ef568f))
+
+
+### BREAKING CHANGES
+
+* this changes the fundamental strategy for implementing FloatingUI and will require accommodating changes in consuming code to work correctly
+
+# [4.5.0](https://github.com/AlaskaAirlines/auro-library/compare/v4.4.1...v4.5.0) (2025-05-15)
+
+
+### Features
+
+* add an advanced `iterate()` to test the given action AND a11y [#159](https://github.com/AlaskaAirlines/auro-library/issues/159) ([0d1734c](https://github.com/AlaskaAirlines/auro-library/commit/0d1734ca3403b51962412444f8264b088482af21))
+
+## [4.4.1](https://github.com/AlaskaAirlines/auro-library/compare/v4.4.0...v4.4.1) (2025-05-01)
+
+
+### Bug Fixes
+
+* allow typing in space on Input Element ([7d0e250](https://github.com/AlaskaAirlines/auro-library/commit/7d0e25053bbfe52f5038224f82e60054facfef81))
+
+# [4.4.0](https://github.com/AlaskaAirlines/auro-library/compare/v4.3.1...v4.4.0) (2025-04-30)
+
+
+### Features
+
+* add support for dayless (e.g. 10/1999) and two-digit year (e.g. 10/99) date formats ([50b730b](https://github.com/AlaskaAirlines/auro-library/commit/50b730bd5ed9a5de7f3c3b44cb0826d96dfed982))
+
+## [4.3.1](https://github.com/AlaskaAirlines/auro-library/compare/v4.3.0...v4.3.1) (2025-04-30)
+
+
+### Bug Fixes
+
+* add .element to fix undefined value on isPopoverVisible ([69f4223](https://github.com/AlaskaAirlines/auro-library/commit/69f4223e35a6f180d932e669c2514a03369a47a3))
+
+## [4.3.1-beta.1](https://github.com/AlaskaAirlines/auro-library/compare/v4.3.0...v4.3.1-beta.1) (2025-04-30)
+
+
+### Bug Fixes
+
+* add .element to fix undefined value on isPopoverVisible ([69f4223](https://github.com/AlaskaAirlines/auro-library/commit/69f4223e35a6f180d932e669c2514a03369a47a3))
+
+# [4.3.0](https://github.com/AlaskaAirlines/auro-library/compare/v4.2.1...v4.3.0) (2025-04-18)
+
+
+### Bug Fixes
+
+* update `matchDate` function to correctly check older dates than year 1000 ([81852fc](https://github.com/AlaskaAirlines/auro-library/commit/81852fc18b6cabc5a4f009c9ddda4a2c10119a67))
+
+
+### Features
+
+* add exported date constraints to dateUtilities for external reference by consumers and allow for barrel imports ([d796e96](https://github.com/AlaskaAirlines/auro-library/commit/d796e963ab5a1db778c78b2b15e45cd28ea1100d))
+
+# [4.3.0-beta.1](https://github.com/AlaskaAirlines/auro-library/compare/v4.2.2-beta.1...v4.3.0-beta.1) (2025-04-16)
+
+
+### Features
+
+* add exported date constraints to dateUtilities for external reference by consumers and allow for barrel imports ([d796e96](https://github.com/AlaskaAirlines/auro-library/commit/d796e963ab5a1db778c78b2b15e45cd28ea1100d))
+
+## [4.2.2-beta.1](https://github.com/AlaskaAirlines/auro-library/compare/v4.2.1...v4.2.2-beta.1) (2025-04-16)
+
+
+### Bug Fixes
+
+* update `matchDate` function to correctly check older dates than year 1000 ([81852fc](https://github.com/AlaskaAirlines/auro-library/commit/81852fc18b6cabc5a4f009c9ddda4a2c10119a67))
+
+## [4.2.1](https://github.com/AlaskaAirlines/auro-library/compare/v4.2.0...v4.2.1) (2025-04-14)
+
+
+### Bug Fixes
+
+* add SSR env condition check in floatingUI ([c71a77e](https://github.com/AlaskaAirlines/auro-library/commit/c71a77ed805dc2e61593dd0c483a01c9f19e2a01))
+* correct method call to hide dropdown in AuroFloatingUI class ([44e30fc](https://github.com/AlaskaAirlines/auro-library/commit/44e30fc384be9adbcd3f493faba4c2f652c019f3))
+* not to hide bib on blur event with mouse being pressed ([8808ee6](https://github.com/AlaskaAirlines/auro-library/commit/8808ee6911ccfb81c0e9a0ed23762852983e1239))
+* remove bib on disconnect in floatingUI ([b5a2935](https://github.com/AlaskaAirlines/auro-library/commit/b5a29358910199589422067ad30767c99bb16daa))
+* setup mousePressChecker in floatingUI's configure function ([6136d36](https://github.com/AlaskaAirlines/auro-library/commit/6136d36a980802dc56a0bea9d9aa12b7bf3e6621))
+
+# [4.2.0](https://github.com/AlaskaAirlines/auro-library/compare/v4.1.1...v4.2.0) (2025-04-10)
+
+
+### Features
+
+* add dateAndFormatMatch to date utilities ([4ce4779](https://github.com/AlaskaAirlines/auro-library/commit/4ce47799514a528d351ec829b8fc8f3f093868cf))
+
+## [4.1.1](https://github.com/AlaskaAirlines/auro-library/compare/v4.1.0...v4.1.1) (2025-04-09)
+
+
+### Bug Fixes
+
+* update wca writing script not to write lines with [@tags](https://github.com/tags) ([8ff5eab](https://github.com/AlaskaAirlines/auro-library/commit/8ff5eab39a656bcf2eac1d4439cb0d44d3208d48))
+
+# [4.1.0](https://github.com/AlaskaAirlines/auro-library/compare/v4.0.0...v4.1.0) (2025-04-02)
+
+
+### Bug Fixes
+
+* hide bib correctly when losing focus on trigger ([226ed07](https://github.com/AlaskaAirlines/auro-library/commit/226ed07a6200d733649f6a9f6e651b88e6ce0d64))
+* prevent clicking background of bib resetting `document.activeElement` ([b8c64d4](https://github.com/AlaskaAirlines/auro-library/commit/b8c64d494e42917c7aabbbc64addf3d7076c62c6))
+
+
+### Features
+
+* create date utilities library ([2241546](https://github.com/AlaskaAirlines/auro-library/commit/22415464a01fcf9a53e8b3b32787f068272b7eaf))
+
+# [4.1.0-beta.2](https://github.com/AlaskaAirlines/auro-library/compare/v4.1.0-beta.1...v4.1.0-beta.2) (2025-04-01)
+
+
+### Bug Fixes
+
+* hide bib correctly when losing focus on trigger ([226ed07](https://github.com/AlaskaAirlines/auro-library/commit/226ed07a6200d733649f6a9f6e651b88e6ce0d64))
+* prevent clicking background of bib resetting `document.activeElement` ([b8c64d4](https://github.com/AlaskaAirlines/auro-library/commit/b8c64d494e42917c7aabbbc64addf3d7076c62c6))
+
+# [4.1.0-beta.1](https://github.com/AlaskaAirlines/auro-library/compare/v4.0.0...v4.1.0-beta.1) (2025-03-28)
+
+
+### Features
+
+* create date utilities library ([2241546](https://github.com/AlaskaAirlines/auro-library/commit/22415464a01fcf9a53e8b3b32787f068272b7eaf))
+
+# [4.0.0](https://github.com/AlaskaAirlines/auro-library/compare/v3.0.13...v4.0.0) (2025-03-24)
+
+
+### Features
+
+* add drawer behavior to floatingUI ([55e6d30](https://github.com/AlaskaAirlines/auro-library/commit/55e6d30df013193174af6b865e023bb14eaa6dd5))
+
+
+### Performance Improvements
+
+* update randomize id logic to use crypto ([0ac1a85](https://github.com/AlaskaAirlines/auro-library/commit/0ac1a85a6ecdc90b68d2bc79238a9410bd00613d))
+
+
+### BREAKING CHANGES
+
+* `data-show` attribute on bib won't be set by floatingUI
+
+## [3.0.13](https://github.com/AlaskaAirlines/auro-library/compare/v3.0.12...v3.0.13) (2025-03-19)
+
+
+### Bug Fixes
+
+* correct method call to hide dropdown in AuroFloatingUI class ([27d9c6c](https://github.com/AlaskaAirlines/auro-library/commit/27d9c6cc8df7f5e6603e5dc231fae2d72a75a486))
+
+## [3.0.12](https://github.com/AlaskaAirlines/auro-library/compare/v3.0.11...v3.0.12) (2025-03-19)
+
+
+### Bug Fixes
+
+* update dropdown reference in AuroFloatingUI class ([0fe1cb3](https://github.com/AlaskaAirlines/auro-library/commit/0fe1cb3b127b83ad5e39748429263c99580dee70))
+
+## [3.0.11](https://github.com/AlaskaAirlines/auro-library/compare/v3.0.10...v3.0.11) (2025-02-28)
+
+
+### Performance Improvements
+
+* update eslint-config to get rid of node version warnings ([ecb349e](https://github.com/AlaskaAirlines/auro-library/commit/ecb349ebf223a9eb14f0e01ddaee5cfdc4558acd))
+
+## [3.0.10](https://github.com/AlaskaAirlines/auro-library/compare/v3.0.9...v3.0.10) (2025-02-20)
+
+
+### Bug Fixes
+
+* make bib not to pushed up by keyboard ([50773d0](https://github.com/AlaskaAirlines/auro-library/commit/50773d08141bebc5a9f8b50b83c94cd34149fc3d))
+
+## [3.0.9](https://github.com/AlaskaAirlines/auro-library/compare/v3.0.8...v3.0.9) (2025-02-17)
+
+
+### Bug Fixes
+
+* fix runtime error on floatingui with no trigger slot ([060c30f](https://github.com/AlaskaAirlines/auro-library/commit/060c30f3da32004e5e0d978949e7d65c661ddfed))
+* lock body scroll only when bib is open in fullscreen mode ([ce5df91](https://github.com/AlaskaAirlines/auro-library/commit/ce5df91b981d7b41b9e938b7d41cc114a279cb59))
+* simplify the strategy logic on `floatingUI` ([42c89db](https://github.com/AlaskaAirlines/auro-library/commit/42c89dbdf9cb48756928143b09b25aa82989dfd4))
+
+
+### Performance Improvements
+
+* lock body's scroll while bib is open ([d78b46e](https://github.com/AlaskaAirlines/auro-library/commit/d78b46ecc689f45b75b3a5317ae029d8b3061c1e))
+
+## [3.0.8](https://github.com/AlaskaAirlines/auro-library/compare/v3.0.7...v3.0.8) (2025-02-05)
+
+
+### Bug Fixes
+
+* temporarily comment out aria-expanded code [#105](https://github.com/AlaskaAirlines/auro-library/issues/105) ([b7cd263](https://github.com/AlaskaAirlines/auro-library/commit/b7cd2632047641d92b3557beef9450d4d9f109c2))
+
+## [3.0.7](https://github.com/AlaskaAirlines/auro-library/compare/v3.0.6...v3.0.7) (2025-01-13)
+
+
+### Performance Improvements
+
+* add ability to pass custom env variables [#103](https://github.com/AlaskaAirlines/auro-library/issues/103) ([fab4c8e](https://github.com/AlaskaAirlines/auro-library/commit/fab4c8e10cab475426b3ed5dfe6db7e9ac99f07c))
+
+## [3.0.6](https://github.com/AlaskaAirlines/auro-library/compare/v3.0.5...v3.0.6) (2025-01-02)
+
+
+### Bug Fixes
+
+* postCSS reference path ([6d33791](https://github.com/AlaskaAirlines/auro-library/commit/6d33791e9f1b74c5052ffcaadc456a798c1ece4d))
+
+## [3.0.5](https://github.com/AlaskaAirlines/auro-library/compare/v3.0.4...v3.0.5) (2024-12-27)
+
+
+### Bug Fixes
+
+* force focus state to dropdown.trigger as `document.activeElement` stays in body even with clicking [#99](https://github.com/AlaskaAirlines/auro-library/issues/99) ([5bfec7a](https://github.com/AlaskaAirlines/auro-library/commit/5bfec7a004c48b4f9612193eb4a64057b81e57cc))
+
+## [3.0.4](https://github.com/AlaskaAirlines/auro-library/compare/v3.0.3...v3.0.4) (2024-12-27)
+
+
+### Performance Improvements
+
+* update `floatingUI` to match with `auro-formkit/dropdown` ([d003072](https://github.com/AlaskaAirlines/auro-library/commit/d00307245d16ad3a4d5aa1b2d60bb374caf3d454))
+
+## [3.0.3](https://github.com/AlaskaAirlines/auro-library/compare/v3.0.2...v3.0.3) (2024-12-23)
+
+
+### Performance Improvements
+
+* update node to version 22 ([6005e32](https://github.com/AlaskaAirlines/auro-library/commit/6005e32156c3c4e6d9b8205270092b4c77a1bf1a))
+
+## [3.0.2](https://github.com/AlaskaAirlines/auro-library/compare/v3.0.1...v3.0.2) (2024-11-13)
+
+
+### Bug Fixes
+
+* automatically create `docTemplate` when generating docs [#94](https://github.com/AlaskaAirlines/auro-library/issues/94) ([e6195d9](https://github.com/AlaskaAirlines/auro-library/commit/e6195d958233cd5b0902cb5afbf769dff246e852))
+
+
+### Performance Improvements
+
+* omit dir exist checking (sourcery reccomendation) ([68de618](https://github.com/AlaskaAirlines/auro-library/commit/68de61844960bf6d32df2ed66ca714857da1d623))
+
+## [3.0.1](https://github.com/AlaskaAirlines/auro-library/compare/v3.0.0...v3.0.1) (2024-11-07)
+
+
+### Bug Fixes
+
+* make api table formatter a preProcessor ([98d3de1](https://github.com/AlaskaAirlines/auro-library/commit/98d3de1e290ea2e3f03da9ef0d167c3291bc195b))
+* properly consume remoteReadmeVariant ([7b5f108](https://github.com/AlaskaAirlines/auro-library/commit/7b5f1082710288d86f8bf182c0ceb71ac3ad7420))
+* sourcery feedback ([de11fe8](https://github.com/AlaskaAirlines/auro-library/commit/de11fe8d70946b6096970026406f63bd9fdc10ba))
+* use fileURLToPath instead of manual formatting ([3d4e834](https://github.com/AlaskaAirlines/auro-library/commit/3d4e8348bf249620eb88a6e1094a8f920c34369a))
+* use import.meta.url instead of __dirname ([9185197](https://github.com/AlaskaAirlines/auro-library/commit/9185197d8b0179dfe645497c640b025d8f39c6b3))
+
+# [3.0.0](https://github.com/AlaskaAirlines/auro-library/compare/v2.11.0...v3.0.0) (2024-11-05)
+
+
+### Bug Fixes
+
+* add missing logger import ([8258705](https://github.com/AlaskaAirlines/auro-library/commit/8258705385b20950dba442a59fa41b56052955bf))
+* sourcery feedback - change tag detection ([51b134f](https://github.com/AlaskaAirlines/auro-library/commit/51b134fea57c79e9625b6053296049c19959595a))
+
+
+### Features
+
+* add more consistent "component root" path generator ([c88f5a8](https://github.com/AlaskaAirlines/auro-library/commit/c88f5a8018fcbcbc1deefa35a0152c1696681957))
+* add syncGithubFiles.mjs script ([207009d](https://github.com/AlaskaAirlines/auro-library/commit/207009d000565566aed4687ed45ee7e286528856))
+* **build:** new script that generate extended component files for `wca` to be able to analyze [#85](https://github.com/AlaskaAirlines/auro-library/issues/85) ([ae8e6ab](https://github.com/AlaskaAirlines/auro-library/commit/ae8e6ab41db40df05f53562e14692a943c37d796))
+* change API for generateReadmeURL and processDocs ([a1a975c](https://github.com/AlaskaAirlines/auro-library/commit/a1a975c0d9020bdd71c9da0bf165777c54801e8b))
+
+
+### BREAKING CHANGES
+
+* `processDocFiles` no longer accepts individual config arguments
+
+# [2.11.0](https://github.com/AlaskaAirlines/auro-library/compare/v2.10.1...v2.11.0) (2024-11-01)
+
+
+### Features
+
+* adding .editoconfig file for IDE formatting ([82e2b64](https://github.com/AlaskaAirlines/auro-library/commit/82e2b64673319c8d5b18269dca2d0d3f8a7de83b))
+
+## [2.10.1](https://github.com/AlaskaAirlines/auro-library/compare/v2.10.0...v2.10.1) (2024-10-21)
+
+
+### Bug Fixes
+
+* reference consuming component's package.json, rather than relatively ([21cf238](https://github.com/AlaskaAirlines/auro-library/commit/21cf2382a54d4a620d1d5d658fa928b54e15d077))
+
+# [2.10.0](https://github.com/AlaskaAirlines/auro-library/compare/v2.9.0...v2.10.0) (2024-10-09)
+
+
+### Bug Fixes
+
+* add tmp/ to npmignore ([94a61b5](https://github.com/AlaskaAirlines/auro-library/commit/94a61b526b72dbe445633dfbea41bf56cc4fef89))
+* update file ending and disable overwrite by default ([fd65cf3](https://github.com/AlaskaAirlines/auro-library/commit/fd65cf39f0051577c5fb43e77bd6bdd6cb0ccdf9))
+
+
+### Features
+
+* add first test suites for doc gen ([88d8987](https://github.com/AlaskaAirlines/auro-library/commit/88d8987126d04f82d14a6ac11078d509eb3e8629))
+* add vitest for unit testing ([0f96702](https://github.com/AlaskaAirlines/auro-library/commit/0f967027ea177f0218d3b6f44e973ce5d22768a8))
+
+
+### Performance Improvements
+
+* remove extra comment from early in dev ([25ac890](https://github.com/AlaskaAirlines/auro-library/commit/25ac8903be38ca600fbd8b1e2ec02d56bc711770))
+
+# [2.9.0](https://github.com/AlaskaAirlines/auro-library/compare/v2.8.0...v2.9.0) (2024-10-07)
+
+
+### Bug Fixes
+
+* add matchWord to md magic config ([372cb28](https://github.com/AlaskaAirlines/auro-library/commit/372cb28a1c9eb0bd5f1014a4a8a9e6415cf659e5))
+
+
+### Features
+
+* add handlebars template support ([bc3851d](https://github.com/AlaskaAirlines/auro-library/commit/bc3851dd87eb907927a3e2e22de53013c5e4e958))
+* add new processing paradigm ([9a1dd25](https://github.com/AlaskaAirlines/auro-library/commit/9a1dd254e1288a6c7873b145a62087a37233a641))
+
+# [2.8.0](https://github.com/AlaskaAirlines/auro-library/compare/v2.7.0...v2.8.0) (2024-09-19)
+
+
+### Features
+
+* add runtime script for Floating UI [#65](https://github.com/AlaskaAirlines/auro-library/issues/65) ([e180fcb](https://github.com/AlaskaAirlines/auro-library/commit/e180fcb319e9ab6673765041b5a96057e562bd60))
+
+# [2.7.0](https://github.com/AlaskaAirlines/auro-library/compare/v2.6.3...v2.7.0) (2024-08-21)
+
+
+### Features
+
+* add registerComponent function ([fc3a135](https://github.com/AlaskaAirlines/auro-library/commit/fc3a135f5fad8e3b5fc022f2e0f38443b11681fc))
+
+## [2.6.3](https://github.com/AlaskaAirlines/auro-library/compare/v2.6.2...v2.6.3) (2024-08-07)
+
+
+### Bug Fixes
+
+* **readme:** update generateDocs script for dynamic readme support [#57](https://github.com/AlaskaAirlines/auro-library/issues/57) ([f3c3092](https://github.com/AlaskaAirlines/auro-library/commit/f3c3092f4c9cc61dcc9f4b55cb5f63be4127c6de))
+
+## [2.6.2](https://github.com/AlaskaAirlines/auro-library/compare/v2.6.1...v2.6.2) (2024-08-07)
+
+
+### Bug Fixes
+
+* update various build scripts ([9b726b3](https://github.com/AlaskaAirlines/auro-library/commit/9b726b3ad2fd616987a4488cc440f0f7498c0028))
+
+## [2.6.1](https://github.com/AlaskaAirlines/auro-library/compare/v2.6.0...v2.6.1) (2024-08-06)
+
+
+### Performance Improvements
+
+* cleanup and update existing build scripts ([b6d5d95](https://github.com/AlaskaAirlines/auro-library/commit/b6d5d952c8e0ce8c7636057e612ae821f5e85079))
+
+# [2.6.0](https://github.com/AlaskaAirlines/auro-library/compare/v2.5.1...v2.6.0) (2024-04-29)
+
+
+### Features
+
+* **tagname:** add new functions for handling custom named components. [#51](https://github.com/AlaskaAirlines/auro-library/issues/51) ([1c7addc](https://github.com/AlaskaAirlines/auro-library/commit/1c7addcb9c637bdf043470e04626b9b4328ed6b6))
+
+## [2.5.1](https://github.com/AlaskaAirlines/auro-library/compare/v2.5.0...v2.5.1) (2024-02-07)
+
+
+### Bug Fixes
+
+* update reference to index.md ([e504708](https://github.com/AlaskaAirlines/auro-library/commit/e5047082cc0e198d0ee8e35fccdd1d715e3ff940))
+
+# [2.5.0](https://github.com/AlaskaAirlines/auro-library/compare/v2.4.7...v2.5.0) (2024-02-07)
+
+
+### Features
+
+* add alt generator ([4bb0207](https://github.com/AlaskaAirlines/auro-library/commit/4bb0207a47a80230954c876647115f47dc9cdfb4))
+* add support for scrapping package.json ([551b407](https://github.com/AlaskaAirlines/auro-library/commit/551b4071ea407d5d5db68037fb63b1874161a35d))
+
+
+### Performance Improvements
+
+* update to support index.md ([87634f6](https://github.com/AlaskaAirlines/auro-library/commit/87634f62a76a1923e3584bc9c7b98c673f663755))
+
+## [2.4.7](https://github.com/AlaskaAirlines/auro-library/compare/v2.4.6...v2.4.7) (2024-02-07)
+
+
+### Performance Improvements
+
+* update template ([54c3da8](https://github.com/AlaskaAirlines/auro-library/commit/54c3da858e5b898bd1ade63b4ade324c78ee5379))
+
+## [2.4.6](https://github.com/AlaskaAirlines/auro-library/compare/v2.4.5...v2.4.6) (2024-02-07)
+
+
+### Performance Improvements
+
+* add support for version extraction ([d7d80cd](https://github.com/AlaskaAirlines/auro-library/commit/d7d80cda8b605300553fa67c38249d73ab23ca07))
+
+## [2.4.5](https://github.com/AlaskaAirlines/auro-library/compare/v2.4.4...v2.4.5) (2024-02-06)
+
+
+### Performance Improvements
+
+* remove unnecessary auto-assigned ([1d6b88c](https://github.com/AlaskaAirlines/auro-library/commit/1d6b88c004e16de3c8c95d5fe1f1adcf2590496d))
+
+## [2.4.4](https://github.com/AlaskaAirlines/auro-library/compare/v2.4.3...v2.4.4) (2024-02-06)
+
+
+### Performance Improvements
+
+* remove optional labeled filter ([62e2cf2](https://github.com/AlaskaAirlines/auro-library/commit/62e2cf2fe052d6d832701e36ce1d1a71174f7b0b))
+
+## [2.4.3](https://github.com/AlaskaAirlines/auro-library/compare/v2.4.2...v2.4.3) (2024-02-02)
+
+
+### Bug Fixes
+
+* remove accidental duplicate line ([9de53ed](https://github.com/AlaskaAirlines/auro-library/commit/9de53ed23512d11f293e30a97a2a7a23dc6e2874))
+
+## [2.4.2](https://github.com/AlaskaAirlines/auro-library/compare/v2.4.1...v2.4.2) (2024-02-02)
+
+
+### Performance Improvements
+
+* update regex ([0ac7870](https://github.com/AlaskaAirlines/auro-library/commit/0ac78704cf0cdc8867d3a88190534c7e9fd86d8a))
+
+## [2.4.1](https://github.com/AlaskaAirlines/auro-library/compare/v2.4.0...v2.4.1) (2024-01-30)
+
+
+### Performance Improvements
+
+* update workflow dependencies ([15d2a6a](https://github.com/AlaskaAirlines/auro-library/commit/15d2a6a3b31cb2ad17bbef52db5d971e5f98bca7))
+
+# [2.4.0](https://github.com/AlaskaAirlines/auro-library/compare/v2.3.2...v2.4.0) (2024-01-26)
+
+
+### Features
+
+* add shell scripts ([caccc2a](https://github.com/AlaskaAirlines/auro-library/commit/caccc2a62855337727c4a805d2cc9e3879c42e18))
+
+## [2.3.2](https://github.com/AlaskaAirlines/auro-library/compare/v2.3.1...v2.3.2) (2024-01-25)
+
+
+### Bug Fixes
+
+* update workflow call ref ([fdf5659](https://github.com/AlaskaAirlines/auro-library/commit/fdf5659b309e97916d6190e3c26495750a00f26b))
+
+## [2.3.1](https://github.com/AlaskaAirlines/auro-library/compare/v2.3.0...v2.3.1) (2024-01-25)
+
+
+### Bug Fixes
+
+* update workflow_call: in script ([c72ec89](https://github.com/AlaskaAirlines/auro-library/commit/c72ec895366d2d36223930bd9de4f56c780dcae4))
+
+# [2.3.0](https://github.com/AlaskaAirlines/auro-library/compare/v2.2.7...v2.3.0) (2024-01-25)
+
+
+### Features
+
+* add new workflow template ([368f423](https://github.com/AlaskaAirlines/auro-library/commit/368f42300639587f11a24d9e951eea08767a27a1))
+
+## [2.2.7](https://github.com/AlaskaAirlines/auro-library/compare/v2.2.6...v2.2.7) (2024-01-24)
+
+
+### Performance Improvements
+
+* update dependencies ([87ae1c3](https://github.com/AlaskaAirlines/auro-library/commit/87ae1c34601b03cc45d8f62e3c732edea23f175e))
+
+## [2.2.6](https://github.com/AlaskaAirlines/auro-library/compare/v2.2.5...v2.2.6) (2024-01-19)
+
+
+### Bug Fixes
+
+* update to current version of docs generator script ([31f3ea9](https://github.com/AlaskaAirlines/auro-library/commit/31f3ea9b03a87345ac69c3d84e33375bcdf403a9))
+
+## [2.2.5](https://github.com/AlaskaAirlines/auro-library/compare/v2.2.4...v2.2.5) (2024-01-11)
+
+
+### Bug Fixes
+
+* update package location ref ([e8cdbf8](https://github.com/AlaskaAirlines/auro-library/commit/e8cdbf8114dcc1e8a9a2af0e37fdca7a5616f6be))
+
+## [2.2.4](https://github.com/AlaskaAirlines/auro-library/compare/v2.2.3...v2.2.4) (2024-01-11)
+
+
+### Performance Improvements
+
+* add script to bin dir ([80476b5](https://github.com/AlaskaAirlines/auro-library/commit/80476b5d434446c34bf9a5c22749d4541fb5d8b9))
+
+## [2.2.3](https://github.com/AlaskaAirlines/auro-library/compare/v2.2.2...v2.2.3) (2024-01-10)
+
+
+### Performance Improvements
+
+* make generateDocs available from bin dir ([157aef6](https://github.com/AlaskaAirlines/auro-library/commit/157aef6ba3641bbf55d6e542d525159e5f780fc5))
+
+## [2.2.2](https://github.com/AlaskaAirlines/auro-library/compare/v2.2.1...v2.2.2) (2024-01-09)
+
+
+### Bug Fixes
+
+* update dependency script to be ES6 ([426b58f](https://github.com/AlaskaAirlines/auro-library/commit/426b58f13c0c9a72cbe0619c33a3d1773013c56c))
+
+## [2.2.1](https://github.com/AlaskaAirlines/auro-library/compare/v2.2.0...v2.2.1) (2024-01-09)
+
+
+### Bug Fixes
+
+* update relative path ([d8eed9f](https://github.com/AlaskaAirlines/auro-library/commit/d8eed9ffb985dd57bbd179e7f2a1bbcbbd587b8f))
+
+# [2.2.0](https://github.com/AlaskaAirlines/auro-library/compare/v2.1.1...v2.2.0) (2024-01-09)
+
+
+### Features
+
+* add build scripts from generator [#47](https://github.com/AlaskaAirlines/auro-library/issues/47) ([ac81a7d](https://github.com/AlaskaAirlines/auro-library/commit/ac81a7d3768e97435d7c80436ae241e2ce38e30b))
+
+## [2.1.1](https://github.com/AlaskaAirlines/auro-library/compare/v2.1.0...v2.1.1) (2023-12-29)
+
+
+### Bug Fixes
+
+* **utils:** move runtime utils to separete file from node utils ([592990e](https://github.com/AlaskaAirlines/auro-library/commit/592990eeb693282999d75998dc49e62f0857012a))
+
+# [2.1.0](https://github.com/AlaskaAirlines/auro-library/compare/v2.0.0...v2.1.0) (2023-12-28)
+
+
+### Features
+
+* **closest:** add closest element function [#43](https://github.com/AlaskaAirlines/auro-library/issues/43) ([f215c74](https://github.com/AlaskaAirlines/auro-library/commit/f215c746c59d70007da2b3fcad7dfb74420bd182))
+
+# [2.0.0](https://github.com/AlaskaAirlines/auro-library/compare/v1.1.0...v2.0.0) (2023-10-05)
+
+
+### Performance Improvements
+
+* **npmignore:** include scripts/config/ directory [#38](https://github.com/AlaskaAirlines/auro-library/issues/38) ([e4e1a75](https://github.com/AlaskaAirlines/auro-library/commit/e4e1a7526765cc828d6124c71853d8cb9e9d3f6f))
+* **scripts:** update directory file for config scripts [#38](https://github.com/AlaskaAirlines/auro-library/issues/38) ([8167f2f](https://github.com/AlaskaAirlines/auro-library/commit/8167f2f5521a22145419d9f7cd8f5e5c4ba5dd80))
+
+
+### BREAKING CHANGES
+
+* **scripts:** The automation scripts directory name has been changed from "setup" to "config".
+
+# [1.1.0](https://github.com/AlaskaAirlines/auro-library/compare/v1.0.2...v1.1.0) (2023-08-31)
+
+
+### Bug Fixes
+
+* **err:** update parameter handling ([04af13a](https://github.com/AlaskaAirlines/auro-library/commit/04af13a315ebb35795fe7b6c162373d7b9c5d3b3))
+
+
+### Features
+
+* **automation:** add automation scripts for workflows and linters [#32](https://github.com/AlaskaAirlines/auro-library/issues/32) ([5dff1b7](https://github.com/AlaskaAirlines/auro-library/commit/5dff1b7dcbe2d7862b4994399f40781037b48d69))
+* **surge:** add workflow that deploys surge demo [#35](https://github.com/AlaskaAirlines/auro-library/issues/35) ([7117212](https://github.com/AlaskaAirlines/auro-library/commit/71172129d0309e132821f1bcb5d8673baa746468))
+
+
+### Performance Improvements
+
+* **.npmignore:** update .npmignore ([2de9db7](https://github.com/AlaskaAirlines/auro-library/commit/2de9db717b6e069a8ffb6b6e067a83b08c41d8c6))
+* **docs:** add generateDocs script [#36](https://github.com/AlaskaAirlines/auro-library/issues/36) ([9746820](https://github.com/AlaskaAirlines/auro-library/commit/97468201ca83767b3cc1dd1396e0d78f311a69f5))
+* **extraction:** extract functions and insert into library utils [#36](https://github.com/AlaskaAirlines/auro-library/issues/36) ([c3018eb](https://github.com/AlaskaAirlines/auro-library/commit/c3018eb01acf4b3682b63b0b92c3beb5b3641161))
+
+## [1.0.2](https://github.com/AlaskaAirlines/auro-library/compare/v1.0.1...v1.0.2) (2023-07-24)
+
+
+### Bug Fixes
+
+* print surge output in publishDemo [#29](https://github.com/AlaskaAirlines/auro-library/issues/29) ([02001d8](https://github.com/AlaskaAirlines/auro-library/commit/02001d8d16c4d874d489a327ddabafb2994e5221))
+* update demo url filter to replace '#' chars [#31](https://github.com/AlaskaAirlines/auro-library/issues/31) ([d81fcc2](https://github.com/AlaskaAirlines/auro-library/commit/d81fcc25dfa6580bb333f0b22241fedd9cf548c4))
+
+## [1.0.1](https://github.com/AlaskaAirlines/auro-library/compare/v1.0.0...v1.0.1) (2023-07-19)
+
+
+### Bug Fixes
+
+* **versionWriter:** use correct path to node_modules directory [#23](https://github.com/AlaskaAirlines/auro-library/issues/23) ([e926397](https://github.com/AlaskaAirlines/auro-library/commit/e926397a8b31c90e9c7e80fd5126600d20ffc3b5))
+
+# 1.0.0 (2023-07-14)
+
+
+### Bug Fixes
+
+* **action:** allow SURGE_TOKEN secret to be passed in ([12bddae](https://github.com/AlaskaAirlines/auro-library/commit/12bddae92a764af0c97af5116af7257152300f5e))
+* **release:** add missing config setup for semantic release [#13](https://github.com/AlaskaAirlines/auro-library/issues/13) ([7bc6f83](https://github.com/AlaskaAirlines/auro-library/commit/7bc6f83e23dc72bbb30adbb9da8bde85fb9d299d))
+
+
+### Features
+
+* **actions:** introduce publish demo workflow ([2dd4d88](https://github.com/AlaskaAirlines/auro-library/commit/2dd4d88b8010929c02d3624ec02961d7643b789b))
+* **assign:** add workflow action [#9](https://github.com/AlaskaAirlines/auro-library/issues/9) ([8b18979](https://github.com/AlaskaAirlines/auro-library/commit/8b18979b793277b2e1ea69358638cd2384f89965))
+* **demo:** write script to replace demo script tags ([bf378f4](https://github.com/AlaskaAirlines/auro-library/commit/bf378f407a6b954e45c36de7dc3ebf69ec68e850))
+* introduce surge teardown workflow [#5](https://github.com/AlaskaAirlines/auro-library/issues/5) ([429d7e4](https://github.com/AlaskaAirlines/auro-library/commit/429d7e49fb006768f0c2be69552de6911af7e363))
+* **npm:** add npm resources + husky git hooks ([3876a57](https://github.com/AlaskaAirlines/auro-library/commit/3876a5763cab5800f463e18bbcf014d437602417))
+* **npm:** configure repo for releasing as an NPM package [#13](https://github.com/AlaskaAirlines/auro-library/issues/13) ([c81d36f](https://github.com/AlaskaAirlines/auro-library/commit/c81d36f239bc58b6fb97089f3fb9af8ace6fb9e5))
+* **versioning:** add dependency versioning utility and docs [#11](https://github.com/AlaskaAirlines/auro-library/issues/11) ([739679f](https://github.com/AlaskaAirlines/auro-library/commit/739679f36e24f3c3583e87a77982d7f34a631f55))
