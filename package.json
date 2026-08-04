@@ -1,6 +1,6 @@
 {
   "name": "@aurodesignsystem-dev/auro-devops-library",
-  "version": "5.13.1",
+  "version": "1.0.0",
   "description": "This repository holds shared scripts, utilities, and workflows utilized across repositories along the Auro Design System.",
   "repository": {
     "type": "git",

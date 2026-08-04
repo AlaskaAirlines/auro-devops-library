@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# 1.0.0 (2026-08-04)
+
+
+### Bug Fixes
+
+* update readme ([bb103c4](https://github.com/AlaskaAirlines/auro-devops-library/commit/bb103c4b330757fd7914de86daca706bf60ff1ab))
+
 ## [5.13.1](https://github.com/AlaskaAirlines/auro-library/compare/v5.13.0...v5.13.1) (2026-07-10)
 
 
